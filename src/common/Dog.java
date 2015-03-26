@@ -60,6 +60,11 @@ public class Dog {
         return true;
     }
 
+    @Override
+    public String toString() {
+        return "Dog{" + "name=" + name + ", rabiesId=" + rabiesId + '}';
+    }
+
     
 
 }
